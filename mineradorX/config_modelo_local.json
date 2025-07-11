@@ -1,0 +1,24 @@
+{
+  "servicos": {
+    "sumarizador": {
+      "tipo": "nuvem",
+      "path_gguf": "/home/nielgomes/.cache/instructlab/models/merlinite-7b-lab-Q4_K_M.gguf",
+      "id_openrouter": "qwen/qwen3-235b-a22b-04-28:free"
+    },
+    "gerador_principal": {
+      "tipo": "local",
+      "path_gguf": "/home/nielgomes/.cache/instructlab/models/jan-nano-4b-Q3_K_L.gguf",
+      "id_openrouter": "deepseek/deepseek-chat:free"
+    }
+  },
+  "parametros_carregamento_local": {
+    "n_gpu_layers": 25,
+    "n_ctx": 4096,
+    "n_batch": 512
+  },
+  "parametros_inferencia_padrao": {
+    "temperature": 0.5,
+    "top_p": 0.8,
+    "max_tokens": 4096
+  }
+}

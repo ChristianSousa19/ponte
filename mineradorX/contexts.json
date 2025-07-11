@@ -1,0 +1,16 @@
+{
+  "urls": {
+    "nome_exibicao": "varias URLs",
+    "fontes": [
+      "https://g1.globo.com/economia/noticia/2025/07/09/trump-manda-carta-a-lula-e-anuncia-tarifa-de-50percent-sobre-produtos-brasileiros.ghtml",
+      "https://g1.globo.com/mundo/noticia/2025/07/09/trump-anuncia-tarifa-de-50percent-sobre-produtos-brasileiros-veja-a-repercussao-internacional.ghtml",
+      "https://g1.globo.com/politica/noticia/2025/07/09/apos-tarifaco-de-trump-contra-o-brasil-bolsonaro-posta-indireta-a-lula-povo-geme-quando-os-perversos-governam.ghtml"
+    ]
+  },
+  "meuooba": {
+    "nome_exibicao": "Meu Oobabooga",
+    "fontes": [
+      "documentos_rag/meu_oobabooga.txt"
+    ]
+  }
+}
